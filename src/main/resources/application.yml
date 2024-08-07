@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: junit
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+
+mongodb:
+  service-host: localhost
+  port: 27017
+  auth-database: admin
+  username: mongodb
+  password: mongodb
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
